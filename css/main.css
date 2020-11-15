@@ -62,9 +62,9 @@ footer #links a:hover{
 }
 
 .navbar #logo {
-    width: 250px;
+    width: 150px;
     margin-right: 60px;
-    margin-top: -85px;
+    margin-top: -30px;
 } 
 .nav-link {
     align-content: right;
@@ -131,8 +131,8 @@ header #header-content button{
 }
 
 #about img{
-    width: 250px;
-    margin: -100px 0;
+    width: 150px;
+    margin: -30px 0;
 }
 /* END about section styles */
 
@@ -378,6 +378,11 @@ footer span{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    .navbar #logo {
+        width: 250px;
+        margin-right: 60px;
+        margin-top: -85px;
+    } 
     header #header-content{
         padding: 150px;
     }
@@ -387,5 +392,9 @@ footer span{
     #news-subscribe form label{
         font-size: 2em;
         margin-right: 100px;
+    }
+    #about img {
+        width: 250px;
+        margin: -85px 0;
     }
 }
